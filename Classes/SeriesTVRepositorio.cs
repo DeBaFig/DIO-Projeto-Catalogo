@@ -38,8 +38,7 @@ namespace DIO_Projeto_Catalogo.Classes
                     opcoesMenu.Listar();
                         break;
                     case 2:
-                        System.Console.WriteLine("opcao2");
-
+                    opcoesMenu.Inserir();
                         break;
                     case 3:
                         System.Console.WriteLine("opcao3");
