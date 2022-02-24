@@ -1,5 +1,5 @@
 using DIO_Projeto_Catalogo.Bases;
-using DIO_Projeto_Catalogo.Classes;
+using DIO_Projeto_Catalogo.Series;
 
 namespace DIO_Projeto_Catalogo.Menus
 {

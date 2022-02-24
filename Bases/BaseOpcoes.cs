@@ -14,7 +14,7 @@ namespace DIO_Projeto_Catalogo.Bases
         }
         public void Inserir(ref string entradaTitulo, ref int entradaGenero, ref string entradaDescricao)
         {
-            int numGeneroMax=-1;
+            int numGeneroMax = -1;
             foreach (int i in Enum.GetValues(typeof(Genero)))
             {
                 Console.WriteLine("{0}-{1}", i, Enum.GetName(typeof(Genero), i));
@@ -28,14 +28,6 @@ namespace DIO_Projeto_Catalogo.Bases
 
             Console.Write("Digite a Descrição: ");
             entradaDescricao = Console.ReadLine();
-        }
-        void Atualizar()
-        {
-
-        }
-        void Ocultar()
-        {
-
         }
 
         public static int ObterGenero(int numOpcoes)
@@ -57,7 +49,7 @@ namespace DIO_Projeto_Catalogo.Bases
             } while (opcao == -1);
             return opcao;
         }
-        
+
         public static int ProcuraId(List<tipo> lista)
         {
             int indexItem = -1;
@@ -70,7 +62,7 @@ namespace DIO_Projeto_Catalogo.Bases
                 if (success)
                 {
                     if (temp <= lista.Count && temp >= 0) indexItem = temp;
-                    else System.Console.WriteLine($"Opção inválida, por favor escolha entre 0 e {lista.Count}.");
+                    else System.Console.WriteLine($"Opção inválida, por favor escolha entre 0 e {(lista.Count)-1}.");
 
                 }
                 else System.Console.WriteLine($"Opção inválida, por favor digite apenas números.");
@@ -79,6 +71,13 @@ namespace DIO_Projeto_Catalogo.Bases
 
             return indexItem;
         }
-        
+
+        public static bool SimOuNao()
+        {
+            string resultado = "";
+            System.Console.WriteLine("\nTem certeza? [S]im: ");
+            resultado = Console.ReadLine().ToUpper();
+            return ((string.Equals(resultado, "S"))? true : false );
+        }
     }
 }

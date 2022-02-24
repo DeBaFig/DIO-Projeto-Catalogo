@@ -1,6 +1,6 @@
 using DIO_Projeto_Catalogo.Bases;
 
-namespace DIO_Projeto_Catalogo.Classes
+namespace DIO_Projeto_Catalogo.Series
 {
     public class SeriesTV : BaseAtributos
     {

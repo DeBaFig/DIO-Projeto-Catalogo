@@ -1,7 +1,7 @@
 using DIO_Projeto_Catalogo.Interfaces;
 using DIO_Projeto_Catalogo.Menus;
 
-namespace DIO_Projeto_Catalogo.Classes
+namespace DIO_Projeto_Catalogo.Series
 {
     public class SeriesTVRepositorio : IRepositorio<SeriesTV>
     {
@@ -41,16 +41,15 @@ namespace DIO_Projeto_Catalogo.Classes
                     opcoesMenu.Inserir();
                         break;
                     case 3:
-                        System.Console.WriteLine("opcao3");
+                        opcoesMenu.Atualiza();
                         break;
                     case 4:
-                        System.Console.WriteLine("opcao4");
+                    opcoesMenu.Excluir();
                         break;
                     case 5:
                         opcoesMenu.Visualizar();
                         break;
                     case 0:
-                        System.Console.WriteLine("opcao0 sair tchau");
                         Console.Clear();
                         break;
                 }
