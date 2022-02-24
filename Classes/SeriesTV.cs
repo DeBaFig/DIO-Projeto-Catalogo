@@ -15,8 +15,8 @@ namespace DIO_Projeto_Catalogo.Classes
 
         public override string ToString()
         {
-            string retorno = "";
-            retorno += "Ano de Início: " + this.Ano + Environment.NewLine;
+            string retorno = base.ToString();
+            retorno += "Ano de de Lançamento: " + this.Ano;
             return retorno;
         }
         public int retornaAno()

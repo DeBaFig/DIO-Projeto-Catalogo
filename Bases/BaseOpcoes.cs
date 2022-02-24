@@ -1,3 +1,4 @@
+
 namespace DIO_Projeto_Catalogo.Bases
 {
     public abstract class BaseOpcoes<tipo>
@@ -36,10 +37,6 @@ namespace DIO_Projeto_Catalogo.Bases
         {
 
         }
-        void Visualizar()
-        {
-
-        }
 
         public static int ObterGenero(int numOpcoes)
         {
@@ -60,5 +57,28 @@ namespace DIO_Projeto_Catalogo.Bases
             } while (opcao == -1);
             return opcao;
         }
+        
+        public static int ProcuraId(List<tipo> lista)
+        {
+            int indexItem = -1;
+            string line = "";
+            do
+            {
+                System.Console.WriteLine("\nDigite o ID do item que deseja:");
+                line = Console.ReadLine();
+                bool success = int.TryParse(line, out int temp);
+                if (success)
+                {
+                    if (temp <= lista.Count && temp >= 0) indexItem = temp;
+                    else System.Console.WriteLine($"Opção inválida, por favor escolha entre 0 e {lista.Count}.");
+
+                }
+                else System.Console.WriteLine($"Opção inválida, por favor digite apenas números.");
+
+            } while (indexItem == -1);
+
+            return indexItem;
+        }
+        
     }
 }

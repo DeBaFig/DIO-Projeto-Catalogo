@@ -47,7 +47,7 @@ namespace DIO_Projeto_Catalogo.Classes
                         System.Console.WriteLine("opcao4");
                         break;
                     case 5:
-                        System.Console.WriteLine("opcao5");
+                        opcoesMenu.Visualizar();
                         break;
                     case 0:
                         System.Console.WriteLine("opcao0 sair tchau");

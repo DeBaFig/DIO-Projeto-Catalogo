@@ -36,6 +36,11 @@ namespace DIO_Projeto_Catalogo.Classes
             itens.Insere(novaSerie);
         }
 
+        public void Visualizar()
+        {
+           var serie = itens.RetornaPorId(ProcuraId(itens.Lista()));
+           System.Console.WriteLine(serie);
+        }
          public static int ObterAno()
         {
             int opcao = -1;
