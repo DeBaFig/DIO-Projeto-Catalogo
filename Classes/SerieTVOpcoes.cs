@@ -38,10 +38,9 @@ namespace DIO_Projeto_Catalogo.Classes
 
          public static int ObterAno()
         {
-            System.DateTime moment = new System.DateTime();
             int opcao = -1;
             string line = "";
-            int year = moment.Year;
+            int year = DateTime.Today.Year;
             do
             {
                 line = Console.ReadLine();

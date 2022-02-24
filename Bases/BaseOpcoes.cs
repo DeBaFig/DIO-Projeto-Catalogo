@@ -51,8 +51,8 @@ namespace DIO_Projeto_Catalogo.Bases
                 bool success = int.TryParse(line, out int temp);
                 if (success)
                 {
-                    if (temp <= numOpcoes && temp >= 0) opcao = temp;
-                    else System.Console.WriteLine($"Opção inválida, por favor escolha entre 0 e {numOpcoes}.");
+                    if (temp <= numOpcoes && temp > 0) opcao = temp;
+                    else System.Console.WriteLine($"Opção inválida, por favor escolha entre 1 e {numOpcoes}.");
 
                 }
                 else System.Console.WriteLine($"Opção inválida, por favor digite apenas números.");
