@@ -1,0 +1,15 @@
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\bin\Debug\net6.0\DIO-Projeto-Catalogo.exe
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\bin\Debug\net6.0\DIO-Projeto-Catalogo.deps.json
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\bin\Debug\net6.0\DIO-Projeto-Catalogo.runtimeconfig.json
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\bin\Debug\net6.0\DIO-Projeto-Catalogo.dll
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\bin\Debug\net6.0\ref\DIO-Projeto-Catalogo.dll
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\bin\Debug\net6.0\DIO-Projeto-Catalogo.pdb
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\obj\Debug\net6.0\DIO-Projeto-Catalogo.csproj.AssemblyReference.cache
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\obj\Debug\net6.0\DIO-Projeto-Catalogo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\obj\Debug\net6.0\DIO-Projeto-Catalogo.AssemblyInfoInputs.cache
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\obj\Debug\net6.0\DIO-Projeto-Catalogo.AssemblyInfo.cs
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\obj\Debug\net6.0\DIO-Projeto-Catalogo.csproj.CoreCompileInputs.cache
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\obj\Debug\net6.0\DIO-Projeto-Catalogo.dll
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\obj\Debug\net6.0\ref\DIO-Projeto-Catalogo.dll
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\obj\Debug\net6.0\DIO-Projeto-Catalogo.pdb
+C:\Users\dbass\source\Repos\DIO-Projeto-Catalogo\obj\Debug\net6.0\DIO-Projeto-Catalogo.genruntimeconfig.cache
