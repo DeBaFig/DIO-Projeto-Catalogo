@@ -11,7 +11,8 @@ namespace DIO_Projeto_Catalogo.Series
             foreach (var serie in itens.Lista())
             {
                 var excluido = serie.retornaOcultacao();
-                Console.WriteLine("#ID {0}: - {1} {2}", serie.retornaId(), serie.retornaTitulo(), (excluido ? "*Excluído*" : ""));
+                Console.WriteLine("\n#ID: {0}\nTítulo: {1}\nStatus: {2}", serie.retornaId(), serie.retornaTitulo(), (excluido ? "*Excluído*" : "Válido"));
+                Console.WriteLine("__________________________________");
             }
         }
 

@@ -21,7 +21,8 @@ namespace DIO_Projeto_Catalogo.Bases
         public override string ToString()
         {
             string retorno = "";
-            retorno += "\nGênero: " + this.Genero + Environment.NewLine;
+            retorno += "\nID: " + this.Id + Environment.NewLine;
+            retorno += "Gênero: " + this.Genero + Environment.NewLine;
             retorno += "Titulo: " + this.Titulo + Environment.NewLine;
             retorno += "Descrição: " + this.Descricao + Environment.NewLine;
             return retorno;

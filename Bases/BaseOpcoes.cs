@@ -5,10 +5,9 @@ namespace DIO_Projeto_Catalogo.Bases
     {
         public void Listar(List<tipo> itens)
         {
-            Console.WriteLine("Listar séries");
             if (itens.Count == 0)
             {
-                Console.WriteLine("Nenhuma série cadastrada.");
+                Console.WriteLine("\nNenhum item cadastrado.");
                 return;
             }
         }
@@ -61,7 +60,7 @@ namespace DIO_Projeto_Catalogo.Bases
                 bool success = int.TryParse(line, out int temp);
                 if (success)
                 {
-                    if (temp <= lista.Count && temp >= 0) indexItem = temp;
+                    if (temp < lista.Count && temp >= 0) indexItem = temp;
                     else System.Console.WriteLine($"Opção inválida, por favor escolha entre 0 e {(lista.Count)-1}.");
 
                 }

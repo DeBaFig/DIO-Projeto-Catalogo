@@ -1,4 +1,5 @@
 using DIO_Projeto_Catalogo.Bases;
+using DIO_Projeto_Catalogo.Livros;
 using DIO_Projeto_Catalogo.Series;
 
 namespace DIO_Projeto_Catalogo.Menus
@@ -34,6 +35,8 @@ namespace DIO_Projeto_Catalogo.Menus
             MostraDesenho();
             MostaMenu(boasVindas, menuOpcoes);
             SeriesTVRepositorio serie = new SeriesTVRepositorio();
+            LivrosRepositorio livro = new LivrosRepositorio();
+            QuadrinhosRepositorio h
             while (opcao != 0)
             {
                 opcao = ObterOpcaoUsuario(3);
@@ -44,13 +47,13 @@ namespace DIO_Projeto_Catalogo.Menus
                         serie.MostraMenuDoTipo();
                         break;
                     case 2:
-                    System.Console.WriteLine("opcao2");
+                        livro.MostraMenuDoTipo();
                         break;
                     case 3:
-                    System.Console.WriteLine("opcao3");
+                        
                         break;
                     case 0:
-                    System.Console.WriteLine("opcao0 encerrar");
+                        System.Console.WriteLine("opcao0 encerrar");
                         Console.Clear();
                         break;
                 }
