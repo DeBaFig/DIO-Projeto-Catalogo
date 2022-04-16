@@ -27,17 +27,6 @@ Esse programa foi desenvolvido graças ao boot camp gratuíto da [Digital Innova
 
 ## Sobre
 
-````
-         ,..........   ..........,
-     ,..,'          '.'          ',..,
-    ,' ,'            :            ', ',
-   ,' ,'             :             ', ',
-  ,' ,'              :              ', ',
- ,' ,'............., : ,.............', ',
-,'  '............   '.'   ............'  ',
- '''''''''''''''''';''';''''''''''''''''''
-                    '''
-````
 Esse pequeno programa foi desenvolvido com ajuda do curso da DIO 
 
 
