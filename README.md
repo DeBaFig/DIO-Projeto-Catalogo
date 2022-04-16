@@ -1,11 +1,17 @@
 
+![banner](https://user-images.githubusercontent.com/46844031/163654807-a6cdebaf-6b42-49f2-b416-ad74d93861c8.jpg)
+
+
+
+
+
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)  ![Visual Studio Code Badge](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)   ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Java Script badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/DeBaFig/DIO-Projeto-Catalogo)  [![GitHub issues](https://img.shields.io/github/issues/DeBaFig/DIO-Projeto-Catalogo)](https://github.com/DeBaFig/DIO-Projeto-Catalogo/issues) [![GitHub forks](https://img.shields.io/github/forks/DeBaFig/DIO-Projeto-Catalogo)](https://github.com/DeBaFig/DIO-Projeto-Catalogo/network) [![GitHub stars](https://img.shields.io/github/stars/DeBaFig/DIO-Projeto-Catalogo)](https://github.com/DeBaFig/DIO-Projeto-Catalogo/stargazers) [![GitHub license](https://img.shields.io/github/license/DeBaFig/DIO-Projeto-Catalogo)](https://github.com/DeBaFig/DIO-Projeto-Catalogo/blob/main/LICENSE) 
 
 <h1 align="center">Projeto Boot Camp Localiza - Catálogo de Filmes</h1>
 
-Esse programa foi desenvolvido graças ao boot camp gratuíto da [Digital Innovation One](https://www.dio.me/) com parceria da [Localiza](https://www.localiza.com/brasil/pt-br). A proposta é práticar os conhecimentos em .NET fazendo um catálogo de filmes, podendo ser expandido para outros tipos de catálogo. 
+Esse programa foi desenvolvido graças ao boot camp gratuíto da [Digital Innovation One](https://www.dio.me/) com parceria da [Localiza](https://www.localiza.com/brasil/pt-br). A proposta é práticar os conhecimentos em .NET/C# fazendo um catálogo de filmes, podendo ser expandido para outros tipos de catálogo. 
 
 <!--ts-->
    * [Sobre](#sobre)
