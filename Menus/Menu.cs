@@ -40,7 +40,7 @@ namespace DIO_Projeto_Catalogo.Menus
                         hq.MostraMenuDoTipo();
                         break;
                     case 0:
-                        Console.Clear();
+                        Console.WriteLine("Obrigada, volte sempre!");
                         break;
                 }
                 if (opcao != 0)
