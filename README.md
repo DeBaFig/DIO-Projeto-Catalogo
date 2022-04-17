@@ -1,5 +1,5 @@
+![banner](https://user-images.githubusercontent.com/46844031/163735676-99c480cf-4fe9-48a3-84ad-aa75a09c6c61.jpg)
 
-![banner](https://user-images.githubusercontent.com/46844031/163654807-a6cdebaf-6b42-49f2-b416-ad74d93861c8.jpg)
 
 ![Badge Parado](http://img.shields.io/static/v1?label=STATUS&message=Parado&color=red&style=for-the-badge)  ![Visual Studio Code Badge](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)  ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)  ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
@@ -116,7 +116,9 @@ __________________________________
 
 [Curso DIO - 
 Criando um APP simples de cadastro de séries em .NET](https://web.dio.me/)
-[Repositorio Original](https://github.com/elizarp/dio-dotnet-poo-lab-2) - [Eliézer Zarpelão](https://github.com/eduardolfelix/dio-cad-series-filmes-simples.NET)
+
+[Repositorio Original](https://github.com/elizarp/dio-dotnet-poo-lab-2)
+[Eliézer Zarpelão](https://github.com/eduardolfelix/dio-cad-series-filmes-simples.NET)
 
 ## Tecnologias
 
