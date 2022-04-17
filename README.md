@@ -1,10 +1,6 @@
 
 ![banner](https://user-images.githubusercontent.com/46844031/163654807-a6cdebaf-6b42-49f2-b416-ad74d93861c8.jpg)
 
-
-
-
-
 ![Badge Parado](http://img.shields.io/static/v1?label=STATUS&message=Parado&color=red&style=for-the-badge)  ![Visual Studio Code Badge](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)  ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)  ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
 
@@ -17,7 +13,8 @@ Esse programa foi desenvolvido graças ao boot camp gratuíto da [Digital Innova
 <!--ts-->
    * [Sobre](#sobre)
    * [Download e execução](#download-e-execução)
-      * [Filmes](#filmes)
+   * [Exemplos](#exemplos)
+      * [Séries de TV](#séries-de-tv)
       * [Livros](#livros)
       * [Mangás](#mangás)
    * [Créditos](#créditos)
@@ -42,17 +39,91 @@ $ cd DIO-Projeto-Catalogo
 # Execute a aplicação em modo de desenvolvimento
 $ dotnet run
 ```
+## Exemplos
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/46844031/163734478-21d66466-afc2-4e55-b287-d1a1405909f6.gif" width="600"/>
+</p>
 
-### Filmes
+Há 3 opções de catálogos que podem ser acessados, abaixo você pode encontrar alguns exemplos de cada um.
+
+````
+Bem vindo ao catalogo TudoQueQuiser
+
+Informe a opção desejada:
+
+1- Acessar Catálogo de Séries de TV
+2- Acessar Catálogo de Livros
+3- Acessar Catálogo de Mangás
+
+0- Sair
+
+````
+
+### Séries de TV
+
+As opções disponíveis são as seguintes: 
+
+````
+No catálogo de Series você pode encontar e registrar
+as mais diversas séries de todas as plataformas.
+
+Informe a opção desejada:
+
+1-Listar Series
+2-Adicionar Serie
+3-Atualizar Serie
+4-Excluir Serie
+5-Visualizar Serie
+0- Sair
+````
+
+#### Características
+
+- Listar Séries mostra em forma numérica crescente baseado no ID.
+- Cria ID de maneira sequencial e armazena as informações da série em questão, os generos de série já são pré-definidos e utilizam um enum para que seja selecionada a opção.
+- Atualiza a Série toda, não apenas um campo dela.
+- Excluir muda o status de ativo para excluido, portanto pode ser identificado, mas ignorado.
+- Visualizar permite mostrar apenas um item em especifico e é buscado pelo ID.
 
 ### Livros
 
+Livros e Séries de TV compartilham as mesmas caractéristica com uma unica adição de que os livros, ao adicionar ao catálogo você deve adicionar um nome de autor.
+
+````
+Digite o número referente ao gênero: 13
+Digite o Título: exemplo-1
+Digite a Descrição: exemplo-1
+Digite o Ano de Lançamento: 2022
+Digite o nome do Autor: exemplo-1
+
+````
+
 ### Mangás
 
+Assim como as demais opções acima os Mangás também compartilham as demais carácteristicas, o diferencial está nos cápitulos que tem/lidos. O programa gera uma barra de leitura com os mangás lidos/publicados.
+
+````
+#ID: 0
+Título: exemplo-2
+Status: Válido
+Capítulos:10
+|▓▓▓▓▓▓▓▓▓░░| Lidos: 8
+__________________________________
+
+````
+
 ## Créditos
-[Repositorio Original](https://github.com/eduardolfelix/dio-cad-series-filmes-simples.NET)
+
+[Curso DIO - 
+Criando um APP simples de cadastro de séries em .NET](https://web.dio.me/)
+[Repositorio Original](https://github.com/elizarp/dio-dotnet-poo-lab-2) - [Eliézer Zarpelão](https://github.com/eduardolfelix/dio-cad-series-filmes-simples.NET)
 
 ## Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [C#](https://docs.microsoft.com/bs-latn-ba/dotnet/csharp/)
+- [.NET](https://docs.microsoft.com/en-us/dotnet/fundamentals/)
 
 ## Autora
 
