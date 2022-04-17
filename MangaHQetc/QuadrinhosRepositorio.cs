@@ -29,7 +29,7 @@ namespace DIO_Projeto_Catalogo.MangaHQetc
             QuadrinhosOpcoes opcoesMenu = new QuadrinhosOpcoes();
             string boasVindas = "\nNo catálogo de HQ's / Mangás / Manhua / Manhawa você pode encontar e registrar\nos mais diversos quadrinhos.\n";
             string menuOpcoes = "1-Listar HQ's / Mangás / Manhua / Manhawa \n2-Adicionar quadrinho \n3-Atualizar quadrinho\n4-Excluir quadrinho\n5-Visualizar quadrinho";
-            Menu.MostraDesenho();
+             
             Menu.MostaMenu(boasVindas, menuOpcoes);
             while (opcao != 0)
             {

@@ -27,7 +27,7 @@ namespace DIO_Projeto_Catalogo.Series
             SerieTVOpcoes opcoesMenu = new SerieTVOpcoes();
             string boasVindas = "\nNo catálogo de Series você pode encontar e registrar\nas mais diversas séries de todas as plataformas.\n";
             string menuOpcoes = "1-Listar Series\n2-Adicionar Serie \n3-Atualizar Serie\n4-Excluir Serie\n5-Visualizar Serie";
-            Menu.MostraDesenho();
+             
             Menu.MostaMenu(boasVindas, menuOpcoes);
             while (opcao != 0)
             {

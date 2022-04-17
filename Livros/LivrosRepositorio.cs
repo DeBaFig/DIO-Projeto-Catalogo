@@ -27,7 +27,7 @@ namespace DIO_Projeto_Catalogo.Livros
             LivrosOpcoes opcoesMenu = new LivrosOpcoes();
             string boasVindas = "\nNo catálogo de Livros você pode encontar e registrar\nos mais diversos livros.\n";
             string menuOpcoes = "1-Listar livros\n2-Adicionar livros \n3-Atualizar livro\n4-Excluir livro\n5-Visualizar livro";
-            Menu.MostraDesenho();
+             
             Menu.MostaMenu(boasVindas, menuOpcoes);
             while (opcao != 0)
             {

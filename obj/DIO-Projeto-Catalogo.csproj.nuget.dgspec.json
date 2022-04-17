@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dbass\\source\\Repos\\DIO-Projeto-Catalogo\\DIO-Projeto-Catalogo.csproj": {}
+    "C:\\Users\\dbass\\Documents\\GitHub\\DIO-Projeto-Catalogo\\DIO-Projeto-Catalogo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dbass\\source\\Repos\\DIO-Projeto-Catalogo\\DIO-Projeto-Catalogo.csproj": {
+    "C:\\Users\\dbass\\Documents\\GitHub\\DIO-Projeto-Catalogo\\DIO-Projeto-Catalogo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dbass\\source\\Repos\\DIO-Projeto-Catalogo\\DIO-Projeto-Catalogo.csproj",
+        "projectUniqueName": "C:\\Users\\dbass\\Documents\\GitHub\\DIO-Projeto-Catalogo\\DIO-Projeto-Catalogo.csproj",
         "projectName": "DIO-Projeto-Catalogo",
-        "projectPath": "C:\\Users\\dbass\\source\\Repos\\DIO-Projeto-Catalogo\\DIO-Projeto-Catalogo.csproj",
+        "projectPath": "C:\\Users\\dbass\\Documents\\GitHub\\DIO-Projeto-Catalogo\\DIO-Projeto-Catalogo.csproj",
         "packagesPath": "C:\\Users\\dbass\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dbass\\source\\Repos\\DIO-Projeto-Catalogo\\obj\\",
+        "outputPath": "C:\\Users\\dbass\\Documents\\GitHub\\DIO-Projeto-Catalogo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

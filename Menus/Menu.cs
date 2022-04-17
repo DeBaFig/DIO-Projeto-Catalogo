@@ -7,21 +7,7 @@ namespace DIO_Projeto_Catalogo.Menus
 {
     public class Menu
     {
-        public static void MostraDesenho()
-        {
-            string path = @"arquivos\codigoDeCarinha.txt";
-            if (File.Exists(path))
-            {
-                using (StreamReader sr = File.OpenText(path))
-                {
-                    string s = "";
-                    while ((s = sr.ReadLine()) != null)
-                    {
-                        Console.WriteLine(s);
-                    }
-                }
-            }
-        }
+        
         public static void MostaMenu(string boasVindas, string menuOpcoes)
         {
             Console.WriteLine(boasVindas);
@@ -33,7 +19,7 @@ namespace DIO_Projeto_Catalogo.Menus
         public static void escolhaCatalogo(string boasVindas, string menuOpcoes)
         {
             var opcao = -1;
-            MostraDesenho();
+             
             MostaMenu(boasVindas, menuOpcoes);
             SeriesTVRepositorio serie = new SeriesTVRepositorio();
             LivrosRepositorio livro = new LivrosRepositorio();
