@@ -5,7 +5,8 @@
 
 
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)  ![Visual Studio Code Badge](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)   ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Java Script badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
+![Badge Parado](http://img.shields.io/static/v1?label=STATUS&message=Parado&color=red&style=for-the-badge)  ![Visual Studio Code Badge](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)  ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)  ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/DeBaFig/DIO-Projeto-Catalogo)  [![GitHub issues](https://img.shields.io/github/issues/DeBaFig/DIO-Projeto-Catalogo)](https://github.com/DeBaFig/DIO-Projeto-Catalogo/issues) [![GitHub forks](https://img.shields.io/github/forks/DeBaFig/DIO-Projeto-Catalogo)](https://github.com/DeBaFig/DIO-Projeto-Catalogo/network) [![GitHub stars](https://img.shields.io/github/stars/DeBaFig/DIO-Projeto-Catalogo)](https://github.com/DeBaFig/DIO-Projeto-Catalogo/stargazers) [![GitHub license](https://img.shields.io/github/license/DeBaFig/DIO-Projeto-Catalogo)](https://github.com/DeBaFig/DIO-Projeto-Catalogo/blob/main/LICENSE) 
 
@@ -15,11 +16,11 @@ Esse programa foi desenvolvido graças ao boot camp gratuíto da [Digital Innova
 
 <!--ts-->
    * [Sobre](#sobre)
-   * [Download/Executar](#download-executar)
-   * [Como usar](#como-usar)
-      * [Filmes/Livros](#menu)
-      * [Mangás](#instalacao)
-   * [Créditos](#)
+   * [Download e execução](#download-e-execução)
+      * [Filmes](#filmes)
+      * [Livros](#livros)
+      * [Mangás](#mangás)
+   * [Créditos](#créditos)
    * [Tecnologias](#tecnologias)
    * [Autora](#autora)
 <!--te-->
@@ -27,14 +28,24 @@ Esse programa foi desenvolvido graças ao boot camp gratuíto da [Digital Innova
 
 ## Sobre
 
-Esse pequeno programa foi desenvolvido com ajuda do curso da DIO 
+Esse programa foi desenvolvido com ajuda do curso da DIO usando a linguagem de C# e .NET framework, a principal função é armazenar na memória volátil informações adicionadas de filmes, livros e mangás. O programa também tem recursos para listar os itens por ID e alterar o item.
 
+## Download e execução
 
-## Download e Executar
+```bash
+# Clone este repositório
+$ git clone https://github.com/DeBaFig/DIO-Projeto-Catalogo.git
 
-## Como usar
+# Acesse a pasta do projeto no terminal/cmd
+$ cd DIO-Projeto-Catalogo
 
-### Filmes e Livros
+# Execute a aplicação em modo de desenvolvimento
+$ dotnet run
+```
+
+### Filmes
+
+### Livros
 
 ### Mangás
 
