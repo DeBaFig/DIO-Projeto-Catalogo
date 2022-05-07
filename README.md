@@ -6,7 +6,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/DeBaFig/DIO-Projeto-Catalogo)  [![GitHub issues](https://img.shields.io/github/issues/DeBaFig/DIO-Projeto-Catalogo)](https://github.com/DeBaFig/DIO-Projeto-Catalogo/issues) [![GitHub forks](https://img.shields.io/github/forks/DeBaFig/DIO-Projeto-Catalogo)](https://github.com/DeBaFig/DIO-Projeto-Catalogo/network) [![GitHub stars](https://img.shields.io/github/stars/DeBaFig/DIO-Projeto-Catalogo)](https://github.com/DeBaFig/DIO-Projeto-Catalogo/stargazers) [![GitHub license](https://img.shields.io/github/license/DeBaFig/DIO-Projeto-Catalogo)](https://github.com/DeBaFig/DIO-Projeto-Catalogo/blob/main/LICENSE) 
 
-<h1 align="center">Projeto Boot Camp Localiza - Catálogo de Filmes</h1>
+<h1 align="center">Projeto Boot Camp Localiza - Catálogo de Séries</h1>
 
 Esse programa foi desenvolvido graças ao boot camp gratuíto da [Digital Innovation One](https://www.dio.me/) com parceria da [Localiza](https://www.localiza.com/brasil/pt-br). A proposta é práticar os conhecimentos em .NET/C# fazendo um catálogo de filmes, podendo ser expandido para outros tipos de catálogo. 
 
